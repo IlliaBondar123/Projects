@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 4</title>
+</head>
+<body>
+    <form action="#" method="get" name="register">
+        <label><h3>Name</h3><input type="text" name="full_name" placeholder="full name" required /></label>
+        <label><h3>Email</h3><input type="email" name="email" placeholder="google@gmail.com" required /></label>
+        <label><h3>Password</h3><input type="password" name="password" placeholder="password" required /></label>
+        <label><h3>Repeat Password</h3><input type="password" name="repassword" placeholder="repassword" required /></label>
+        <h3>Sex</h3>
+        <div><label><h3>Man</h3><input name="name" type="radio" required /></label>
+        <label><h3>Woman</h3><input name="name" type="radio" required /></label></div>
+        <label><h3>Age</h3><input type="number" name="age" min="18" required /></label>
+        <label><h3>Course</h3><select name="selector" required>
+          <option disabled selected >-=Select=-</option>
+          <option >Front-End</option>
+          <option >Back-End</option>
+          <option >Project Management</option>
+          <option >QA Manual</option>
+        </select>
+        <label><h3>Adress</h3><textarea name="adress" cols="18" rows="4" placeholder="Country,region,city/village,street"></textarea></label>
+        <label><h3>I agree to use my personal information</h3><input type="checkbox" required></label>
+        <div><button type="submit">Submit</button>
+        <button type="reset">Clear form</button></div>
+    </form>
+</body>
+</html>
