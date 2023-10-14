@@ -152,29 +152,26 @@ flex-shrink: 0;
    height: 38px;
 }
 .stars {
-   display: flex;
-   margin: 0;
-   width: 970px;
-   height: 230px;
-   align-items: center;
-   flex-shrink: 0;
-
+      display: flex;
+      margin: 0;
+      width: 970px;
+      height: 230px;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
 }
 .stars img {
-width: 25px;
+width: 20px;
 margin-left: 0;
 }
-.stars img:nth-child(1){
-   margin-left: 180px;
-}
 .stars img:nth-child(6){
-   margin-left: 50px;
+   margin-left: 80px;
 }
 .stars img:nth-child(11){
-   margin-left: 50px;
+   margin-left: 80px;
 }
 .stars img:nth-child(16){
-   margin-left: 50px;
+   margin-left: 80px;
 }
 .portfolio img {
    margin-top: 50px;
@@ -221,7 +218,7 @@ line-height: normal;
 margin-top: 100px;
 }
 .contact p {
-   color:#070707;
+color:#070707;
 text-align: center;
 font-family: Open Sans;
 font-size: 18px;
@@ -243,6 +240,22 @@ height: 44px;
 padding: 0px 16px;
 justify-content: center;
 align-items: center;
+}
+.mybutton {
+border-radius: 22px;
+background: var(--Black, #070707);
+color: #ffffff;
+display: flex;
+width: 180px;
+height: 44px;
+padding: 0px 16px;
+max-width: 970px;
+margin: 0;
+align-items: center;
+justify-content: center;
+}
+.mybutton:hover{
+color: red;
 }
 .add {
    color: #FFF;
@@ -273,6 +286,9 @@ footer ul {
 }
 .socials ul li:last-child{
    margin-right: 0;
+}
+.socials ul li a img:hover {
+   opacity: 0.5;
 }
 footer p {
 color: #828282;
