@@ -1,0 +1,116 @@
+*{transition: all .1s ease-in;}
+.container{
+    width: 100%;
+    max-width: 534px;
+    margin: 0 auto;
+}
+h1{
+color: aqua;
+}
+body{
+    background: #3B3F45;
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+h1{
+color: #FF8984;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+h2{
+color: #FF8984;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+header{
+    text-align: center;
+    background: #4A4F56;
+}
+main{
+    display: flex;
+}
+.colorsheme li label input span:nth-child(odd){
+    background: #FF8984;
+}
+ul:nth-child(2){
+    background-color: aquamarine;
+}
+span{
+color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.ribbon1::after{
+    content: " (for the next lessons about CSS)";
+    font-size: 11px;
+}
+.ribbon2::after{
+    content: " (for more CSS manipulations)";
+    font-size: 11px;
+}
+.ribbon3::after{
+    content: " (because they are awesome)";
+    font-size: 11px;
+}
+.ribbon4::after{
+    content: " (hm... they always dissapear)";
+    font-size: 11px;
+}
+.ribbon6::after{
+    content: " (for my friends)";
+    font-size: 11px;
+}
+input:active+span{
+    background: red;
+}
+input:checked+span{
+    text-decoration: line-through;
+    color: #9B96AC;
+}
+.button{
+    width: 100%;
+    max-width: 534px;
+    height: 45px;
+    margin: 0 auto;
+    text-align: center;
+    background: #4A4F56;
+    color: #FF8984;
+    margin-top: 45px;
+    margin-bottom: 45px;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.button::after{
+    content: ":)";
+    color: #FF8984;
+}
+.checkbox-wrap li{
+    border-top: rgba(1, 1, 1, 0) solid 3px;
+    border-bottom: rgba(1, 1, 1, 0) solid 3px;
+}
+.checkbox-wrap li:nth-child(1n){
+    background: #88839E;
+}
+.checkbox-wrap li:nth-child(2n){
+    background: #7A7593;
+}
+main{
+    margin-top: 20px;
+}
+.checkbox-wrap li:hover{
+    border-top:3px solid rgb(255, 255, 255);
+    border-bottom:3px solid rgb(255, 255, 255);
+    background-color: #625E77;
+}
