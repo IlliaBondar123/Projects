@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Francois+One&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Staatliches&family=Tourney:wght@600&display=swap');
+.container{
+    width: 100%;
+   max-width: 1200px;
+    margin: 0 auto;
+}
+.head{
+    display: flex;
+}
+img{
+    align-items: flex-end;
+}
+.eng{
+    margin-right: 50px;
+    color: black;
+font-family: Tourney;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 1.32px;
+}
+.slash{
+    display: flex;
+    gap: 10px;
+    color: #000;
+font-family: Staatliches;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.66px;
+}
+div .image{
+    margin-left: 839px;
+}
+header{
+    margin-bottom: 70px;
+}
+.section{
+    display: flex;
+    gap: 10px;
+}
+.section1 p{
+    color: #000;
+font-family: PT Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 48px;
+}
+.class1{
+    color: #000;
+font-family: PT Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 48px;
+text-decoration-line: underline;
+}
+.section2 p{
+    color: #000;
+font-family: PT Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 48px;
+}
+.section2 span{
+    color: #000;
+font-family: PT Sans;
+font-size: 28px;
+font-style: italic;
+font-weight: 400;
+line-height: 48px;
+}
+.section3 p{
+    color: #000;
+font-family: PT Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 48px;
+}
+.section4 p{
+    color: #000;
+font-family: PT Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 48px;
+}
+.section4 span{
+    color: #000;
+font-family: PT Sans;
+font-size: 28px;
+font-style: italic;
+font-weight: 400;
+line-height: 48px;
+}
+.under{
+    color: #000;
+font-family: PT Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 48px;
+text-decoration-line: underline;
+}
+.fat {
+    color: #000;
+font-family: PT Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px;
+}
+h2{
+    margin-bottom: 40px;
+    color: #000;
+font-family: Francois One;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 1.44px;
+text-transform: uppercase;
+}
+.margin{
+    margin: 40px 0 40px 0;
+}
+.section span{
+    color: #000;
+font-feature-settings: 'sups' on;
+font-family: Farro;
+font-size: 30px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 1.2px;
+}
+.text::before{
+    content: "<Text>";
+}
+.text::after{
+    content: "</Text>";
+}
+.text{
+    background: rgb(170, 170, 170);
+}
+.name{
+    background: rgb(170, 170, 170);
+}
+.inside::after{
+    content: "<Text>";
+    background: rgb(170, 170, 170);
+}
