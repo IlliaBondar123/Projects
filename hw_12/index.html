@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Homework12</title>
+</head>
+<body>
+  <main>
+    <div class="size">
+      <h1>Create an account</h1>
+      <form action="#" method="get" name="form-left">
+        <div class="flex">
+          <label class="margin">
+            <div class="title"><span>First name</span></div>
+            <input class="border" type="text" name="type_name" required>
+          </label>
+          <label class="margin">
+            <div class="title"><span>Last name</span></div>
+            <input type="text" name="type_lastname" required>
+          </label>
+        </div>
+        <div class="mail">
+          <label>
+            <div><span class="mail_font">E-mail</span></div>
+            <input class="e-mail" type="email" name="e-mail" required>
+          </label>
+          <p>We'll never share your email with anyone else.</p>
+        </div>
+        <div class="flex">
+          <div class="wrapper-radio">          
+          <input type="radio" name="sex">
+          <div class="check"></div>
+          <span class="gender">Male</span>
+        </div>
+          <div class="wrapper-radio">          
+            <input type="radio" name="sex">
+            <div class="check"></div>
+            <span class="gender">Female</span>
+          </div>
+        </div>
+        <div class="flex">
+          <label class="margin">
+            <div class="title"><span>Country</span></div>
+            <div class="wrapper">
+              <select class="border sizing" name="options" id="">
+              <option value="value1">Select</option>
+              <option value="value2">USA</option>
+              <option value="value3">Ukraine</option>
+              <option value="value4">Poland</option>
+              <option value="value5">latvia</option>
+            </select>
+            <img src="icon.svg" alt="">
+          </div>
+          </label>
+          <label class="margin">
+            <div class="title"><span>City</span></div>
+            <input type="text" name="type_city" required>
+          </label>
+        </div>
+        <div>
+          <button class="btn" type="submit">Sign up</button>
+        </div>
+      </form>
+      <div class="agrremet"><span>By clicking the 'Sign Up' button, you confirm that you accept our <a class="spacing" href="">Terms of Use</a> and <a href="">Privacy Policy</a>.</span></div>
+      <div class="agrremet marging"><span class="space">Have an account?</span><a href="#">Log in</a></div>
+    </div>
+    <div class="size">
+      <h1>Profile</h1>
+      <form action="">
+        <div class="flex">
+        <div><img src="profile.png" alt=""></div>
+        <div class="wrapper">
+          <input class="photo_upl" type="text" name="type_photo" required>
+        <img class="photocamera" src="photo_camera.svg" alt="">
+      </div>
+        <button class="btn-2"><img src="trash_can.png" alt=""></button>
+        </div>
+        <span class="positioning">Up to 1 MB (300x300 px)</span>
+        <div class="flex">
+          <label class="margin">
+            <div class="title"><span>Name</span></div>
+            <input class="border" type="text" name="type_name-2" required>
+          </label>
+          <label class="margin">
+            <div class="title"><span>Email</span></div>
+            <input class="email_2" type="email" name="email-2" required>
+          </label>
+        </div>
+        <div class="flex">
+          <label class="margin">
+            <div class="title"><span>Country</span></div>
+            <div class="wrapper">
+              <select class="border sizing" name="options" id="">
+              <option value="value1">Select</option>
+              <option value="value2">USA</option>
+              <option value="value3">Ukraine</option>
+              <option value="value4">Poland</option>
+              <option value="value5">latvia</option>
+            </select>
+            <img src="icon.svg" alt="">
+          </div>
+          </label>
+          <label class="margin">
+            <div class="title"><span>City</span></div>
+            <input type="text" name="type_city" required>
+          </label>
+        </div>
+        <div class="flex">
+          <label class="margin">
+            <div class="title"><span>Zip-code</span></div>
+            <input type="number" name="type_number" required>
+          </label>
+          <label class="margin">
+            <div class="title"><span>Phone Number</span></div>
+            <input type="number" name="type_phone_number" required>
+          </label>
+        </div>
+        <button class="btn-3" type="submit">Update</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
