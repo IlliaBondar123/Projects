@@ -14,11 +14,10 @@
     padding: 5px;
   }
 }
-@media (max-width: 600px) {
-  img.icons {
-    max-width: 40px;
-    width: 100%;
-    max-height: 40px;
-    height: 100%;
+@media (max-width: 628px) {
+  .section3 div.skills {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    max-height: unset;
   }
 }

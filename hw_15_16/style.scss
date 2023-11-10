@@ -123,8 +123,6 @@ section{
     line-height: normal;
   }
   div.skills{
-    display: flex;
-    gap: 97px;
     div{
       display: flex;
       flex-direction: column;
@@ -162,6 +160,7 @@ section{
 }
 .skills{
   display: flex;
+  gap: 97px;
   max-height: 230px;
   height: 100%;
   max-width: 970px;
