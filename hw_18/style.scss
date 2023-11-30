@@ -1,0 +1,514 @@
+@import "reset";
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@300;400;700&display=swap');
+
+.container {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 862px;
+  height: 100%;
+}
+img.bg-default {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 862px;
+  object-fit: cover;
+}
+h1.title {
+  color: #FFF;
+  font-family: "Josefin Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  margin-top: 295px;
+}
+h4.subtitle {
+  color: #FFF;
+  font-family: "Josefin Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 6.82px;
+  margin-bottom: 48px;
+}
+div.wrapper {
+  max-width: 612px;
+  width: 100%;  
+  position: relative;
+  margin-bottom: 211px;
+}
+input[type='text'].search {
+  max-width: 612px;
+  height: 58px;
+  width: 100%;
+  padding-left: 36px;
+  border: unset;
+  &::placeholder {
+    color: var(--Text-Grey, #999);
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2.8px;
+  }
+}
+button.btn-head {
+  position: absolute;
+  top: 4px;
+  right: -30px;
+  display: flex;
+  width: 139px;
+  height: 52px;
+  padding: 16px 24px;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  background-color: #5373FD;
+  border: unset;
+  color: #FFF;
+  font-family: Aleo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  z-index: 5;
+}
+a.scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFF;
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 2.8px;
+  text-decoration: none;
+  .arrow {
+    max-width: 14px;
+    max-height: 16px;
+    width: 100%;
+    height: 100%;
+  }
+}
+div.nav-bg {
+  background-color: #5373FD;
+}
+div.navigation {
+  display: grid;
+  grid-template-columns: 200px 575px;
+  height: 84px;
+  align-items: center;
+  justify-content: space-between;
+  h3 {
+    color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+  }
+  nav {
+    max-width: 575px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      li {
+        a {
+          text-decoration: none;
+          color: #FFF;
+          font-family: Aleo;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 1.4px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+  .burger {
+    display: none;
+    width: 40px;
+    height: 84px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    span {
+      display: block;
+      width: 100%;
+      height: 3px;
+      background-color: black;
+    }
+  }
+}
+.text_btn {
+  position: relative;
+  z-index: 2;
+}
+img.us-bg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 704px;
+  object-fit: cover;
+}
+div.choose {
+  height: 704px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.explore {
+  max-height: 324px;
+  height: 100%;
+  max-width: 648px;
+  width: 100%;
+  h2 {
+    color: #FFF;
+    font-family: Aleo;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: capitalize;
+    padding: 0 15px;
+  }
+  p {color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 1.6px;
+    margin-bottom: 32px;
+    padding: 0 15px;
+  }
+  a {
+    padding: 22px 32px; 
+    background-color: #5373FD;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Aleo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+  }
+}
+.photo-cliff {
+  max-height: 456px;
+  height: 100%;
+  max-width: 536px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  img {
+    max-width: 350px;
+    width: 100%;
+    max-height: 220px;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.nature {
+  margin-left: 74px;
+}
+.wrap {
+  position: relative;
+.rectangle {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+}
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 306px;
+  .steps {
+    max-height: 306px;
+    height: 100%;
+  }
+}
+div.bookmarks {
+  display: flex;
+  gap: 23px;
+  h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Aleo;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: capitalize;
+  }
+  .item {
+    max-width: 424px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    img {
+      border: solid 1px #333;
+      background-color: #333;
+      border-radius: 48px;
+      z-index: 2;
+    }
+  }
+}
+.villa {
+  max-height: 684px;
+  height: 100%;
+}
+.spain {
+  height: 684px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.madrid {
+  max-width: 648px;
+  max-height: 344px;
+  width: 100%;
+  height: 100%;
+  background: rgba(35, 35, 35, 0.90);
+  padding: 44px 32px 0 32px;
+  h6 {
+    color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+  }
+  h5 {color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  p {
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 1.6px;
+    margin-bottom: 35px;
+  }
+  a {
+    padding: 22px 32px; 
+    background-color: #5373FD;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Aleo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+  }
+}
+div.ocean {
+  max-height: 684px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+div.villa_madrid {
+  max-height: 684px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.madrid-mount {
+  max-width: 648px;
+  max-height: 344px;
+  width: 100%;
+  height: 100%;
+  background: rgba(35, 35, 35, 0.90);
+  padding: 44px 32px 0 32px;
+  h6 {
+    color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+  }
+  h5 {color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  p {
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 1.6px;
+    margin-bottom: 35px;
+  }
+  a {
+    padding: 22px 32px; 
+    background-color: #5373FD;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Aleo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+  }
+}
+.tourist {
+  height: 680px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Aleo;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: capitalize;
+    margin-top: 120px;
+  }
+}
+.travels {
+  display: flex;
+  .traveler {
+    max-height: 283px;
+    height: 100%;
+  }
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 48px 60px;
+  background-color: #333;
+  position: relative;
+  h5 {color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  p {color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 1.6px;
+  }
+  .quote {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 90px;
+  }
+}
+footer {
+  height: 268px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h3 {
+    color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  p {color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2.8px;
+    margin-bottom: 20px;
+  }
+  nav {
+    ul {
+      display: flex;
+      gap: 32px;
+      li {
+        &:hover path{
+          fill: #5373FD;
+      }
+    }
+  }
+}
+}
+@import "media";
