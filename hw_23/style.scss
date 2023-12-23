@@ -1,0 +1,9 @@
+.disabled {
+  opacity: 0;
+}
+section.colors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
