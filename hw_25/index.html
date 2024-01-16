@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="read-more.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Homework</title>
+</head>
+<body>
+  <main>
+    <header class="header">
+      <div class="container navigation header_burger">
+        <a href="index.html"><img src="img/logo_header.png" alt=""></a>
+      <nav>
+        <ul class="header-nav">
+          <li><a class="active" href="#home">About us</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#gallery">Projects</a></li>
+          <li><a href="#maps">Contacts</a></li>
+        </ul>
+      </nav>
+      <nav class="hidden">
+        <ul class="header-icons">
+          <li><a href=""><img src="img/logo_facebook.svg" alt=""></a></li>
+          <li><a href=""><img src="img/logo_twitter.svg" alt=""></a></li>
+          <li><a href=""><img src="img/logo_insta.svg" alt=""></a></li>
+        </ul>
+      </nav>
+      <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      </div>
+    </header>
+    <section id="home" class="main">
+      <div class="swiper main-slider">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="content">
+             <img class="bg" src="img/header_bg.png" alt="">
+              <h2>SIMPLE & MODERN</h2>
+              <p>WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
+            </div>
+            <div class="projects_scroll"><a href="#gallery"><img src="img/scroll_projects.svg" alt=""></a></div>
+          </div>
+          <div class="swiper-slide slider-element">
+            <div class="content">
+              <img class="bg" src="img/header_bg.png" alt="">
+            <h2>SIMPLE & MODERN</h2>
+            <p>WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
+           </div>
+          </div>
+          <div class="swiper-slide slider-element">
+            <div class="content">
+              <img class="bg" src="img/header_bg.png" alt="">
+            <h2>SIMPLE & MODERN</h2>
+            <p>WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
+           </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="content">
+              <img class="bg" src="img/header_bg.png" alt="">
+              <h2>SIMPLE & MODERN</h2>
+              <p>WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="content">
+              <img class="bg" src="img/header_bg.png" alt="">
+              <h2>SIMPLE & MODERN</h2>
+              <p>WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination slider-main-pagination"></div>
+      </div>
+    </section>
+    <section class="we_do">
+      <div class="text_paragraph">
+        <hr>
+        <p>WHAT WE DO</p></div>
+      <div class="we_do-info container">
+        <div class="we_do-info-content top">
+        <div class="sizing">
+          <img class="section_building" src="img/buble_house.png" alt="">
+          <img class="img_position_blue" src="img/rect_blue.png" alt="">
+        </div>
+        <div class="text_position">
+          <p class="uppertext">ONE WORLD</p>
+          <h3>TRADE CENTER</h3>
+          <p>Increasing prosperity in our lives can be accomplished by having the right frame of mind. The truth is, our thoughts are very powerful.</p>
+          <a class="more" href="">MORE DETAILS</a>
+          <a class="location" href="https://goo.gl/maps/iqeMzAVgSWth5H1N6">New York City, United States - 1776 feet</a>
+        </div>
+      </div>
+      <div class="we_do-info-content">
+        <div class="text_position">
+          <p class="uppertext">INTERNATIONAL</p>
+          <h3>COMMERCE CENTRE</h3>
+          <p>Successful businesses have many things in common, today we’ll look at the big ‘R’ of recognition and how a digital advertising network may help.</p>
+          <a class="more" href="">MORE DETAILS</a>
+          <a class="location" href="https://goo.gl/maps/iqeMzAVgSWth5H1N6">Hong Kong - 1588 feet</a>
+        </div>
+        <div class="sizing">
+          <img class="section_building" src="img/factory.png" alt="">
+          <img class="img_position_purple" src="img/rect_purple.png" alt="">
+        </div>
+      </div></div>
+      
+    </section>
+    <section id="news" class="news">
+      <div class="text_news">
+        <hr>
+        <p>LATEST NEWS</p></div>
+      <div class="news-container">
+        <div class="swiper news-slider container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="slider-img" src="img/slide_bg.png" alt="">
+            <h3>SEE THE UNMATCHED BEAUTY OF THE GREAT.</h3>
+            <p>Free directories: directories are perfect for customers that are searching for...</p>
+            <div class="slider-bio">
+              <div class="slider-bio-img">
+                <img src="img/slider_bio_img.png" alt=""></div>
+              <div class="slider-bio-text"><p class="slider-bio-name">ALJA BRUN</p><p class="slider-bio-date">20 Jan 2020</p></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="slider-img" src="img/slide_bg.png" alt="">
+            <h3>SEE THE UNMATCHED BEAUTY OF THE GREAT.</h3>
+            <p>Free directories: directories are perfect for customers that are searching for...</p>
+            <div class="slider-bio">
+              <div class="slider-bio-img">
+                <img src="img/slider_bio_img.png" alt=""></div>
+              <div class="slider-bio-text"><p class="slider-bio-name">ALJA BRUN</p><p class="slider-bio-date">20 Jan 2020</p></div>
+            </div></div>
+          <div class="swiper-slide">
+            <img class="slider-img" src="img/slide_bg.png" alt="">
+            <h3>SEE THE UNMATCHED BEAUTY OF THE GREAT.</h3>
+            <p>Free directories: directories are perfect for customers that are searching for...</p>
+            <div class="slider-bio">
+              <div class="slider-bio-img">
+                <img src="img/slider_bio_img.png" alt=""></div>
+              <div class="slider-bio-text"><p class="slider-bio-name">ALJA BRUN</p><p class="slider-bio-date">20 Jan 2020</p></div>
+            </div></div>
+          <div class="swiper-slide">
+            <img class="slider-img" src="img/slide_bg.png" alt="">
+            <h3>SEE THE UNMATCHED BEAUTY OF THE GREAT.</h3>
+            <p>Free directories: directories are perfect for customers that are searching for...</p>
+            <div class="slider-bio">
+              <div class="slider-bio-img">
+                <img src="img/slider_bio_img.png" alt=""></div>
+              <div class="slider-bio-text"><p class="slider-bio-name">ALJA BRUN</p><p class="slider-bio-date">20 Jan 2020</p></div>
+            </div></div>
+          <div class="swiper-slide">
+            <img class="slider-img" src="img/slide_bg.png" alt="">
+            <h3>SEE THE UNMATCHED BEAUTY OF THE GREAT.</h3>
+            <p>Free directories: directories are perfect for customers that are searching for...</p>
+            <div class="slider-bio">
+              <div class="slider-bio-img">
+                <img src="img/slider_bio_img.png" alt=""></div>
+              <div class="slider-bio-text"><p class="slider-bio-name">ALJA BRUN</p><p class="slider-bio-date">20 Jan 2020</p></div>
+            </div></div>
+          <div class="swiper-slide">
+            <img class="slider-img" src="img/slide_bg.png" alt="">
+            <h3>SEE THE UNMATCHED BEAUTY OF THE GREAT.</h3>
+            <p>Free directories: directories are perfect for customers that are searching for...</p>
+            <div class="slider-bio">
+              <div class="slider-bio-img"><img src="img/slider_bio_img.png" alt=""></div>
+              <div class="slider-bio-text"><p class="slider-bio-name">ALJA BRUN</p><p class="slider-bio-date">20 Jan 2020</p></div>
+            </div></div>
+        </div>
+      </div>
+              <div class="swiper-pagination slider-news-pagination"></div>
+              <div class="swiper-button-prev slider-news-button-prev"></div>
+              <div class="swiper-button-next slider-news-button-next"></div>
+    </div>
+    </section>
+    <section id="gallery" class="gallery">
+      <div class="text_gallery">
+        <hr>
+        <p>GALLERY</p></div>
+      <div class="items container">
+        <div class="item"><a href="img/gallery_first.png" data-fancybox="gallery"><img src="img/gallery_first.png" alt=""></a></div>
+        <div class="item"><a href="img/gallery_second.png" data-fancybox="gallery"><img src="img/gallery_second.png" alt=""></a></div>
+        <div class="item"><a href="img/gallery_third.png" data-fancybox="gallery"><img src="img/gallery_third.png" alt=""></a></div>
+        <div class="item"><a href="img/gallery_fourth.png" data-fancybox="gallery"><img src="img/gallery_fourth.png" alt=""></a></div>
+        <div class="item"><a href="img/gallery_fifth.png" data-fancybox="gallery"><img src="img/gallery_fifth.png" alt=""></a></div>
+        <a href="" data-fancybox="gallery"><img class="gallery-group" src="img/gallery_group.svg" alt=""></a>
+      </div>
+    </section> 
+    <section id="maps" class="map">
+      <div id="map">
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_FMZMunvAiOR9JCKaA78rZ2N9x6fY2io&callback=initMap"></script>
+      </div>
+    </section>
+    <footer>
+      <div class="contacts_position">   
+        <div class="contacts-div">
+        <div>
+          <hr>
+          <h1>GET IN TOUCH</h1>
+        </div>
+        <div class="contacts-info">
+          <div class="contsacts-info-child manager_contacts">
+            <p>91 Nolan Extensions Suite 670</p>
+            <p>+001 356-868-2454</p>
+            <p>montichello@service.com</p>
+            <p>From 07:05AM to 19:30PM</p>
+          </div>
+          <div class="contsacts-info-child">
+            <form class="contacts-form" action="#" method="get">
+              <input
+              class="contacts-form-name"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              value="Mollie Medina"
+              required
+              minlength="2"/>
+              <input
+              class="contacts-form-email"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+              minlength="5"/>
+              <div class="button_form">
+                <input 
+              class="contacts-form-button"
+              type="submit"
+              value="Submit">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="footer_links">
+        <div class="footer_logo">
+          <a href="index.html"><img src="img/logo_header.png" alt=""></a>
+          <p>Copyrights © 2020 Montichello</p>
+        </div>
+        <div><nav>
+          <ul class="header-icons">
+            <li><a href=""><img src="img/logo_facebook.svg" alt=""></a></li>
+            <li><a href=""><img src="img/logo_twitter.svg" alt=""></a></li>
+            <li><a href=""><img src="img/logo_insta.svg" alt=""></a></li>
+          </ul>
+        </nav></div>
+      </div>
+    </footer>
+  </main>
+    <script src="script.js"></script>
+</body>
+</html>

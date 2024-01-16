@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital@0;1&display=swap');
+
+div.content {
+  h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 8px;
+  }
+  p {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5.4px;
+  }
+}
+div.text_paragraph {  
+  color: #2C4058;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+div.text_position {
+  p.uppertext {
+    color: #2C4058;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0;
+  }
+  h3 {
+    color: #2C4058;
+    font-family: Montserrat;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  p {
+    color: #2C4058;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  a.more {
+    color: #2C4058;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none;
+  }
+  a.location {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+  }
+}
+div.text_news {
+  p {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+div.text_gallery {
+  p {
+    color: #2C4058;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+main section.news .news-slider .swiper-slide h3 {
+  width: 100%;
+  max-width: 330px;
+  color: #2C4058;
+  font-family: Montserrat;
+  padding-left: 20px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main section.news .news-slider .swiper-slide p {
+  color: #2C4058;
+  font-family: Open Sans;
+  font-size: 18px;
+  padding-left: 20px;
+  width: 100%;
+  max-width: 330px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+main section.news .news-slider .swiper-slide .slider-bio p.slider-bio-name {
+  margin-bottom: 6px;
+  padding: 0;
+  color: #2C4058;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+main section.news .news-slider .swiper-slide .slider-bio p.slider-bio-date {
+  color: #55B7FF;
+  padding: 0;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+section.gallery a.more {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+footer .contacts_position {
+  hr {
+    max-width: 100px;
+    width: 100%;
+  }
+  h1 {
+    color: #2C4058;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+footer .manager_contacts p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+footer .contacts-form-name {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+footer .contacts-form-email {
+  color: #4B5562;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  opacity: 0.5;
+}
+footer .contacts-form-button {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
