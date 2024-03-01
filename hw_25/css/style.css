@@ -210,7 +210,7 @@ main section.we_do div.we_do-info .we_do-info-content .text_position .more:hover
   border: 1px solid red;
 }
 main section.we_do div.we_do-info .we_do-info-content .text_position .location::before {
-  content: url(img/pin_marker.svg);
+  content: url(../img/pin_marker.svg);
   margin-right: 10px;
 }
 main section.we_do div.we_do-info .we_do-info-content .img_position_blue {
@@ -234,8 +234,7 @@ main section.we_do div.we_do-info .section_building {
   width: 100%;
 }
 main section.news {
-  background-image: url(img/news_bg.png);
-  background-color: black;
+  background-image: url(../img/news_bg.png);
 }
 main section.news .text_news {
   display: flex;
@@ -424,7 +423,7 @@ footer {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  background-color: green;
+  background-image: url(../img/news_bg.png);
   position: relative;
 }
 footer .manager_contacts {
