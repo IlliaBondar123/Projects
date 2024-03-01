@@ -216,7 +216,7 @@ main {
           }
           .location {
             &::before {
-              content: url(img/pin_marker.svg);
+              content: url(../img/pin_marker.svg);
               margin-right: 10px;
             }
           }
@@ -245,8 +245,7 @@ main {
     }
   }
   section.news {
-    background-image: url(img/news_bg.png);
-    background-color: black;
+    background-image: url(../img/news_bg.png);
     .text_news {
       display: flex;
       flex-direction: column;
@@ -436,7 +435,7 @@ footer {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  background-color: green;
+  background-image: url(../img/news_bg.png);
   position: relative;
   .manager_contacts {
     display: flex;

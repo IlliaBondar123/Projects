@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&display=swap");
+header {
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+header .wrapper {
+  display: grid;
+  grid-template-columns: 175px 1fr 180px;
+  align-items: center;
+  height: 80px;
+  padding: 0 10px;
+}
+header .logo {
+  max-width: 175px;
+  width: 100%;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 400px;
+  padding: 0 5px;
+  width: 100%;
+}
+header nav ul a {
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  color: #fff;
+  transition: 0.5s all ease-out;
+}
+header nav ul a:hover {
+  color: #fd6500;
+}
+header nav ul a.active {
+  color: red;
+}
+header .btn {
+  display: flex;
+  padding: 10px;
+  background-color: red;
+  justify-content: space-around;
+  transition: 0.5s all ease-out;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+}
+header .btn span {
+  color: #fff;
+}
+header .btn:hover {
+  background-color: #fd6500;
+}
+header .burger {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+header .burger span {
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  header .wrapper.active {
+    height: auto;
+    grid-template-columns: 1fr 40px;
+    grid-template-rows: 80px auto 80px;
+    grid-template-areas: "logo burger" "nav nav" "btn btn";
+  }
+  header .wrapper.active .logo {
+    grid-area: logo;
+  }
+  header .wrapper.active nav {
+    grid-area: nav;
+    display: flex;
+  }
+  header .wrapper.active nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: unset;
+    gap: 15px;
+  }
+  header .wrapper.active .btn {
+    grid-area: btn;
+    display: flex;
+  }
+  header .wrapper.active .burger {
+    grid-area: burger;
+  }
+  header .wrapper {
+    grid-template-columns: 1fr 40px;
+  }
+  header nav {
+    display: none;
+  }
+  header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 400px;
+    padding: 0 5px;
+    width: 100%;
+  }
+  header .btn {
+    display: none;
+  }
+  header .btn button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    border: unset;
+    background-color: #fd6500;
+    border-radius: 5px;
+    color: #fff;
+  }
+  header .burger {
+    display: flex;
+  }
+}

@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&display=swap");
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 15px;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  margin: 50px 0;
+}
+.quote h1 {
+  padding: 0 10px;
+}
+
+.home-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  flex-direction: column;
+}
